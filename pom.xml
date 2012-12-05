@@ -42,10 +42,4 @@
 		</dependency>
 	</dependencies>
 
-	<repositories>
-		<repository>
-			<id>objectify-appengine</id>
-			<url>http://maven.objectify-appengine.googlecode.com/git/</url>
-		</repository>
-	</repositories>
 </project>
