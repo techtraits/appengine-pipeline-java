@@ -36,7 +36,7 @@ public class StaticContentHandler {
   private static Logger logger = Logger.getLogger(StaticContentHandler.class.getName());
 
   private static final int BUFFER_SIZE = 1024 * 2;
-  private static final String UI_DIR = "ui/";
+  private static final String UI_DIR = "/ui/";
   // This is where the ui files end up if the library is built internally at
   // Google:
   private static final String INTERNAL_BUILD_UI_DIR =
