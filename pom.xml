@@ -44,40 +44,8 @@
 
 	<repositories>
 		<repository>
-			<id>Genius</id>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/groups/genius</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-		<repository>
 			<id>objectify-appengine</id>
 			<url>http://maven.objectify-appengine.googlecode.com/git/</url>
 		</repository>
 	</repositories>
-	<pluginRepositories>
-		<pluginRepository>
-			<id>genius</id>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/groups/genius</url>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</pluginRepository>
-	</pluginRepositories>
-	<distributionManagement>
-		<repository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>genius</id>
-			<name>Genius Releases</name>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/repositories/releases</url>
-		</repository>
-		<snapshotRepository>
-			<uniqueVersion>false</uniqueVersion>
-			<id>genius</id>
-			<name>Genius Snapshots</name>
-			<url>http://nexus01.pogospike.com:8080/nexus/content/repositories/snapshots</url>
-		</snapshotRepository>
-	</distributionManagement>
 </project>
